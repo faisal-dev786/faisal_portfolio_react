@@ -28,6 +28,21 @@
   .new-email-bx button {
     padding: 20px 30px !important;
   }
+  .footer-logo {
+    margin: 0.5rem 0rem;
+  }
+  .banner h1 {
+    font-size: 3rem !important;
+  }
+  .social-icon {
+    margin-left: 0px !important;
+  }
+  .banner {
+    padding: 7rem 0 8rem 0 !important;
+  }
+  nav.navbar {
+    background: #151515 !important;
+  }
 }
 /************ Default Css ************/
 * {
@@ -120,13 +135,13 @@ nav.navbar.scrolled {
   background-color: #121212;
 }
 nav.navbar a.navbar-brand {
-  width: 9%;
+  width: 15%;
 }
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
   color: #fff !important;
   letter-spacing: 0.8px;
-  padding: 0 25px;
+  padding: 6 25px;
   font-size: 18px;
   opacity: 0.75;
 }
@@ -180,7 +195,7 @@ span.navbar-text {
   font-weight: 700;
   color: #fff;
   border: 1px solid #fff;
-  padding: 18px 34px;
+  padding: 18px 28px;
   font-size: 18px;
   margin-left: 18px;
   position: relative;
@@ -255,11 +270,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-color: transparent;
 }
-
+.navbar-logo {
+  max-width: 80px;
+}
 /************ Banner Css ************/
 .banner {
   margin-top: 0;
-  padding: 260px 0 100px 0;
+  padding: 10rem 0 8rem 0;
   background-image: url("./assets/img/banner-bg.png");
   background-position: top center;
   background-size: cover;
@@ -574,11 +591,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Footer Css ************/
 .footer {
-  padding: 0 0 50px 0;
+  padding: 1rem 0rem;
   background-image: url("./assets/img/footer-bg.png");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+.footer-logo {
+  max-width: 130px;
 }
 .newsletter-bx {
   background: #ffffff;
