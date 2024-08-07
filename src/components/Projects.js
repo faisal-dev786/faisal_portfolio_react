@@ -79,7 +79,7 @@ export const Projects = () => {
     },
     {
       title: "https://luceroclinic.ca/",
-      // description: "Design & Development",
+
       imgUrl: projImg11,
     },
     {
