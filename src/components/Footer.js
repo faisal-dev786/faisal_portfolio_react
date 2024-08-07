@@ -16,7 +16,7 @@ export const Footer = () => {
             <div className="social-icon">
               <a
                 target="_blank"
-                href="www.linkedin.com/in/faisal-nadeem-frontend-developer/"
+                href="https://www.linkedin.com/in/faisal-nadeem-frontend-developer/"
               >
                 <img src={navIcon1} alt="Icon" />
               </a>
